@@ -82,7 +82,7 @@ function TaskBoard() {
           data-testid="manage-tags-button"
         >
           <TagIcon className="h-4 w-4 mr-2" />
-          Manage Tags 
+          Manage Tag 
         </button>
       </div>
       
@@ -211,7 +211,7 @@ function TaskBoard() {
                         data-testid={`clear-completed-${list.id}`}
                       >
                         <TrashIcon className="h-3 w-3 mr-1" />
-                        Clear Completed
+                        Clear Completed 
                       </motion.button>
                     </div>
                   )}
