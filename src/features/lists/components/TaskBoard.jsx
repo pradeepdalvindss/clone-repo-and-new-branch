@@ -74,7 +74,7 @@ function TaskBoard() {
   return (
     <div className="task-board" data-testid="task-board">
       <div className="mb-4 flex justify-between items-center">
-        <h2 className="font-semibold text-lg text-neutral-700">Task Lists</h2>
+        <h2 className="font-semibold text-lg text-neutral-700">Tasks Lists</h2>
         <button 
           type="button"
           className="flex items-center text-sm font-medium text-primary-600 hover:text-primary-800 transition-colors px-3 py-1.5 hover:bg-primary-50 rounded-lg"
@@ -82,7 +82,7 @@ function TaskBoard() {
           data-testid="manage-tags-button"
         >
           <TagIcon className="h-4 w-4 mr-2" />
-          Manage Tags
+          Manage Tags 
         </button>
       </div>
       
