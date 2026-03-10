@@ -83,11 +83,10 @@ function TaskBoard() {
           data-testid="manage-tags-button"
         >
           <TagIcon className="h-4 w-4 mr-2" />
-<<<<<<< HEAD
+
           Manage Tags resolve branch
-=======
-          Manage Tag 
->>>>>>> my-feature-branch
+
+          
         </button>
       </div>
       
